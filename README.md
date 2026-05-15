@@ -5,7 +5,7 @@ This repository contains the code for the paper "Dual Pose-Graph Semantic Locali
 
 ## 🎥 Videos
 
-[![A2RL competition results](docs/images/video_thumbnail.png)](https://vimeo.com/1079143067)
+[![A2RL competition results](docs/images/video_thumbnail_a2rl.jpg)](https://vimeo.com/1079143067)
 
 ## 📖 Paper <a id="published-papers"></a>
 
