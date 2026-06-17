@@ -58,7 +58,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.20.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.3.2-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.0-pyhc364b38_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.0-pyhc364b38_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.12-8_cp312.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.34.2-pyhcf101f3_0.conda
@@ -509,7 +509,7 @@ environments:
       - conda: https://prefix.dev/aerostack2/osx-arm64/as2_core-0.0.0-h60d57d3_0.conda
       - conda: https://prefix.dev/aerostack2/osx-arm64/as2_msgs-0.0.0-h60d57d3_0.conda
       - conda: https://prefix.dev/dual-pose-graph/osx-arm64/dual_pose_graph-0.1.0-h60d57d3_0.conda
-      - conda: https://prefix.dev/dual-pose-graph/osx-arm64/ros-humble-dual-pose-graph-0.1.0-h60d57d3_0.conda
+      - conda: https://prefix.dev/dual-pose-graph/osx-arm64/ros-humble-dual-pose-graph-0.1.1-h60d57d3_0.conda
 packages:
 - conda: https://conda.anaconda.org/conda-forge/noarch/adwaita-icon-theme-49.0-unix_0.conda
   sha256: a362b4f5c96a0bf4def96be1a77317e2730af38915eb9bec85e2a92836501ed7
@@ -1049,9 +1049,9 @@ packages:
   run_exports: {}
   size: 21085
   timestamp: 1733217331982
-- conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.0-pyhc364b38_0.conda
-  sha256: 5aa4f03f578998719d3f12e1e79d53956f6cc915429f8ac66fc1bd2107b7ec65
-  md5: 4ea6d6c745192579ca81b75021b68334
+- conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.0-pyhc364b38_1.conda
+  sha256: 2acb99bdf01f8b6c9d5758850df35bf272844c6d4fbc4f6f3865d7a0c172c62e
+  md5: 244fd1dfaeef8291dfafdef694abc133
   depends:
   - pygments >=2.7.2
   - python >=3.10
@@ -1064,10 +1064,9 @@ packages:
   constrains:
   - pytest-faulthandler >=2
   license: MIT
-  license_family: MIT
   run_exports: {}
-  size: 306602
-  timestamp: 1781624895494
+  size: 306619
+  timestamp: 1781699581695
 - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
   sha256: d6a17ece93bbd5139e02d2bd7dbfa80bee1a4261dced63f65f679121686bf664
   md5: 5b8d21249ff20967101ffa321cab24e8
@@ -8656,9 +8655,9 @@ packages:
   run_exports: {}
   size: 66103
   timestamp: 1781604771815
-- conda: https://prefix.dev/dual-pose-graph/osx-arm64/ros-humble-dual-pose-graph-0.1.0-h60d57d3_0.conda
-  sha256: d97d0fc38168773f8deccf4dbca2bd488fea0f014e12e375743be027eb84e95c
-  md5: 783ebf1956f5cd4c45d089980e681cec
+- conda: https://prefix.dev/dual-pose-graph/osx-arm64/ros-humble-dual-pose-graph-0.1.1-h60d57d3_0.conda
+  sha256: 76a3714832b2fcaec7c93c1442f0af3a059b77105f9fc51eca4c0deb48e7e36c
+  md5: 5b6b0c5e13520a591adca332ab1b2899
   depends:
   - dual_pose_graph >=0.1
   - ros-humble-ament-cmake
@@ -8675,5 +8674,5 @@ packages:
   - ros2-distro-mutex
   license: LicenseRef-BSD-3-Clause
   run_exports: {}
-  size: 254190
-  timestamp: 1781692579362
+  size: 258889
+  timestamp: 1781710783960
